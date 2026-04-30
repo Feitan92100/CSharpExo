@@ -1,0 +1,8 @@
+{
+  "Employees": [
+    { "Id": 1, "Nom": "Alice", "Age": 28, "Departement": "IT", "Actif": true },
+    { "Id": 2, "Nom": "Bilal", "Age": 34, "Departement": "RH", "Actif": false },
+    { "Id": 3, "Nom": "Chloé", "Age": 22, "Departement": "Ventes", "Actif": true },
+    { "Id": 4, "Nom": "Diego", "Age": 41, "Departement": "Finance", "Actif": true }
+  ]
+}

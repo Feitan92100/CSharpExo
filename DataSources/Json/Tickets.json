@@ -1,0 +1,62 @@
+{
+  "Tickets": [
+    {
+      "TicketId": "TCK-2026-0001",
+      "CreatedAt": "2026-04-29T10:15:00Z",
+      "Priority": 2,
+      "IsClosed": false,
+      "Requester": {
+        "UserId": 101,
+        "Name": "Nadia",
+        "Contacts": {
+          "Email": "nadia@example.com",
+          "Phones": [ "+33 6 00 00 00 01", "+33 6 00 00 00 02" ]
+        }
+      },
+      "Tags": [ "export", "json", "xml", "formation" ],
+      "Metrics": {
+        "EstimatedHours": 3.5,
+        "SpentHours": 1.25
+      },
+      "Comments": [
+        {
+          "At": "2026-04-29T10:20:00Z",
+          "By": "coach",
+          "Text": "Pense à rendre l'export générique."
+        },
+        {
+          "At": "2026-04-29T10:35:00Z",
+          "By": "student",
+          "Text": "Ok, je teste avec un autre fichier."
+        }
+      ],
+      "OptionalNote": null
+    },
+    {
+      "TicketId": "TCK-2026-0002",
+      "CreatedAt": "2026-04-29T11:00:00Z",
+      "Priority": 1,
+      "IsClosed": true,
+      "Requester": {
+        "UserId": 102,
+        "Name": "Omar",
+        "Contacts": {
+          "Email": "omar@example.com",
+          "Phones": []
+        }
+      },
+      "Tags": [ "bug", "parser" ],
+      "Metrics": {
+        "EstimatedHours": 0.5,
+        "SpentHours": 0.75
+      },
+      "Comments": [],
+      "OptionalNote": "Résolu, cause: mauvais format d'entrée."
+    }
+  ],
+  "Info": {
+    "Source": "SoftConvert.TestData",
+    "Version": 1,
+    "GeneratedAt": "2026-04-29T12:00:00Z"
+  }
+}

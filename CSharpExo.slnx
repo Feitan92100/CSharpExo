@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="DataSources/DataSources.csproj" />
+  <Project Path="ImagesOpti/ImagesOpti.csproj" Id="58591567-ab46-401b-a32d-50dfba9f3fd3" />
+  <Project Path="LinqExercicePresentationNet8/LinqExercicePresentationNet8.csproj" />
+  <Project Path="Performance10/Performance10.csproj" Id="e1d3b6bf-d396-43c9-b052-03fe0debf7bf" />
+  <Project Path="ProjetPOO/ProjetPOO.csproj" />
+  <Project Path="SoftConvert/SoftConvert.csproj" Id="a4264f93-ef3d-47c9-ae9f-1867a6e4b41a" />
+</Solution>
