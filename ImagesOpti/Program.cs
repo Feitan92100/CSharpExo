@@ -6,6 +6,8 @@ using SixLabors.ImageSharp.Processing;
 // Dossier source des images
 var path = new DirectoryInfo(Path.Combine(Directory.GetCurrentDirectory(), "../../../images/files"));
 var extensions = new[] { "*.jpg", "*.jpeg", "*.png" };
+var jsonPath = Path.Combine(Directory.GetCurrentDirectory(), "../../../images.json");
+var json = File.ReadAllText(jsonPath);
 
 // Résolutions
 var resolutions = new[] { 1080, 720, 480 };
